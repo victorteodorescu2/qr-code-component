@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --font-outfit: 'Outfit', sans-serif;
+}
+
+@theme {
+  --color-white: #ffffff;
+  --color-slate-300: #d5e1e7;
+  --color-slate-500: #68778d;
+  --color-slate-900: #1f314f;
+}
+
+@layer components {
+  .text-preset-1 {
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    font-weight: bold;
+    font-family: var(--font-outfit);
+  }
+
+  .text-preset-2 {
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    font-family: var(--font-outfit);
+  }
+}
